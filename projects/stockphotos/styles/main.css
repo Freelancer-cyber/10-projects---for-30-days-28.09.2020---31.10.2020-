@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+    /*Header*/
+.header{
+    height: 100vh;
+    background: url("../images/bg.jpg") no-repeat;
+}
+    /*Navigation bar*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(155, 215, 229, .3);
+}
+.menu__logo{
+    transform: translateY(50%);
+}
+.burger__lines{
+    padding: 10px 20px;
+    display: block;
+    transition: background-color .2s linear;
+}
+.burger__lines:hover {
+    background-color: rgba(255,255,255, 0.3);
+}
+.burger__line{
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    margin:8px 0;
+}
